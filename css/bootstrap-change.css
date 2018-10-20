@@ -32,9 +32,6 @@ p {
     margin-top: 0;
     margin-bottom: 0 !important;
 }
-.bg-light {
-    background-color: transparent !important;
-}
 .btn-outline-primary:focus, .btn-outline-primary.focus {
        color: #fff;
     background-color: #3da5e4;
