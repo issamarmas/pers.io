@@ -1,0 +1,80 @@
+.btn{
+    padding: 0.700rem 2.75rem;
+}
+.btn-outline-primary {
+    color: #ffffff;
+    background-color: transparent;
+    background-image: none;
+    border-color: #ffffff;
+}
+
+/*
+you have to save that's style for navbar
+-------------
+*/
+.bg-light {
+    background-color: #f7f7f7 !important;
+    position: fixed !important;
+    box-shadow: -1px -6px 20px 0px #3da5e4;
+    margin: 0 auto;
+    height: 65px;
+    z-index: 99999;
+    width: 100%;
+}
+/*
+they are in top...
+---------------
+*/
+
+
+
+p {
+    margin-top: 0;
+    margin-bottom: 0 !important;
+}
+.bg-light {
+    background-color: transparent !important;
+}
+.btn-outline-primary:focus, .btn-outline-primary.focus {
+       color: #fff;
+    background-color: #3da5e4;
+    border-color: #3da5e4;
+    box-shadow: none;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #3da5e4;
+    border-color: #3da5e4;
+}
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+.btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #3da5e4;
+    border-color: #3da5e4;
+}
+.btn:not(:disabled):not(.disabled) {
+    margin: 2px 12px;
+}
+.container-fluid {
+    padding: 0;
+}
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: center!important;
+    padding: 1rem 1rem;
+}
+.p-3 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding: 0 !important;
+}
