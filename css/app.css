@@ -167,6 +167,11 @@ span, li{
     color:#3da5e4;
     padding: 13 10px;
 }
+div#about-link {
+    position: relative;
+    top: -63px;
+    display: block;
+}
 ul {
     list-style: none;
     float: right;
@@ -408,4 +413,14 @@ padding: 1rem;
    font-size:2.3em;
    color: white;
    padding-bottom: 2rem;
+}
+
+/* The new style after back */
+
+.profile > p:hover {
+    transform: translateY(-7px);
+    background-color: #2d90cc;
+    cursor: pointer;
+    box-shadow: 0px 1px 20px 0px #2d90cc9e;
+    /* border-top: solid 2px #42a7e4; */
 }
