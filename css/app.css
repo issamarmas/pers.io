@@ -420,6 +420,26 @@ padding: 1rem;
    padding-bottom: 2rem;
 }
 
+/* style sosiel links --s-nav--*/
+.s {
+    animation: none;
+    color: #3da5e4;
+    margin: 9px;
+    position: relative;
+    padding: 0px !important;
+    top: 1px;
+
+}
+ul.s-nav a:hover .s {
+    color: #ff9a44 !important;
+}
+.s-nav li {
+    padding: 0px;
+}
+
+/*---------end ----*/
+
+
 /* The new style after back */
 
 .profile > p:hover {
