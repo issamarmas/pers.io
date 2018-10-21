@@ -38,6 +38,7 @@ header{
 header .cover h2{
     color: #000000;
     font-weight: 200;
+    LINE-HEIGHT: 55PX;
     margin-bottom: 1rem;
     font-size: 2.5em;
     -webkit-font-smoothing: antialiased;
@@ -456,4 +457,37 @@ ul.s-nav a:hover .s {
       cursor: pointer;
       box-shadow: 0px 1px 20px 0px #ff9a44;
     /* border-top: solid 2px #42a7e4; */
+}
+section#footer {
+    height: 250px;
+    background: #151515;
+    border-top: solid 2px #5f5f5f;
+}
+.width-footer{
+  width: 87%;
+  height: 100%;
+  align-items: center;
+  margin: 0 auto;
+  padding: 2rem;
+  display: block;
+}
+#footer h3:hover {
+    border-color: #ff9a44;
+    color: #ff9a44;
+    user-select: none;
+}
+i.fas.fa-angle-up.f {
+    transform: none;
+    position: relative;
+    display: inline-block;
+    right: 57px;
+    top: -24px;
+    padding: 0px 10px;
+    border-radius: 3px;
+    box-shadow: 0px -2px #5f5f5f;
+    background: #151515;
+    color: white;
+}
+i.fas.fa-angle-up.f:hover {
+    color: #ff9a44;
 }
