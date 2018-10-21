@@ -1,6 +1,7 @@
 
 
-function mm() {
-  $('a').smoothScroll();
+function changeColor() {
+
+  getElementsByClassName('paragraph').onclick=()
+  
 }
-mm();

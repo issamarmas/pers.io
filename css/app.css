@@ -13,12 +13,15 @@ body{
   /*  overflow: hidden; */
    background-color: #f7f7f7 !important;
 }
+span.dash-left {
+    color: #e2e2e2;
+}
 header{
 
     display: block;
     height: 100vh;
     margin: 0 auto;
-    background-image:url(../images/mmm.jpg);
+    background-image:url(../images/gg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -28,18 +31,18 @@ header{
 .cover{
     display: block;
     text-align: center;
-    background :rgba(0, 0, 0, 0.59) !important;
+    background :#f7f7f7 !important;
     height: 100%;
 }
 header .cover h2{
-    color: #ffffff;
+    color: #636363;
     font-weight: 200;
     margin-bottom: 1rem;
     font-size: 2.5em;
     -webkit-font-smoothing: antialiased;
 }
 header p {
-    color: #f1f1f1;
+    color: #6b6b6b;
     font-weight: 200;
     font-size: 18px !important;
     margin-bottom: 1rem !important;
@@ -85,6 +88,7 @@ margin: 0 auto;
 }
 #about > .title > h2{
    font-weight: 200;
+   box-shadow: 0px -3px 3px #00000005 !important;
    text-align: center;
    padding: 50px;
    font-size:2.3em;
@@ -196,7 +200,7 @@ li > a{
  100% {transform: rotate(360deg) }
 }
 .dash{
-    color: #d2d2d2;
+    color: #e2e2e2;
     font-weight: 100;
     user-select: none;
     margin-right: 1rem;
@@ -215,7 +219,7 @@ li > a{
     margin-left: -17px;
     top: 50%;
     margin-top: 27vh;
-    box-shadow: inset 0 0 0 1px #fff;
+    box-shadow:inset 0 0 0 1px #3da5e4;
     border-radius: 25px;
     z-index: 1;
 
@@ -224,7 +228,7 @@ li > a{
     content: '';
     width: 5px;
     height: 8px;
-    background: #fff;
+    background: #3da5e4;
     margin-left: -2px;
     top: 8px;
     border-radius: 4px;
