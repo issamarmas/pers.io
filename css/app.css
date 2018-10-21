@@ -116,6 +116,14 @@ margin: 0 auto;
     padding: 0 1rem !important;
 
 }
+.title:hover > .border {
+    border-color: #ff9a44 !important;
+    transform: scaleX(2.3);
+}
+.title:hover > .b {
+    border-color: #ff9a44 !important;
+    transform: scaleX(6);
+}
 .rounded:hover {
     transform: translateY(-10px);
 }
