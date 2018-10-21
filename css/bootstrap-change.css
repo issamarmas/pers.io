@@ -2,7 +2,7 @@
     padding: 0.700rem 2.75rem;
 }
 .btn-outline-primary {
-    color: #000000;
+    color: #ff9a44;
     background-color: transparent;
     background-image: none;
 }
@@ -16,7 +16,7 @@ you have to save that's style for navbar
     position: fixed !important;
     box-shadow: 0px 3px 2px 0px #b1b1b11f;
     margin: 0 auto;
-    height: 65px;
+    height: 61px;
     z-index: 99999;
     width: 100%;
 }
@@ -71,6 +71,7 @@ p {
 }
 .btn:not(:disabled):not(.disabled) {
     margin: 2px 12px;
+    font-weight: 500;
 }
 .container-fluid {
     padding: 0;
