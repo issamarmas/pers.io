@@ -14,7 +14,7 @@ you have to save that's style for navbar
 .bg-light {
     background-color: #fdfdfd !important;
     position: fixed !important;
-    box-shadow: 0px 3px 2px 0px #b1b1b11f;
+    box-shadow: 0px 2px 2px 0px #b1b1b11f;
     margin: 0 auto;
     height: 61px;
     z-index: 99999;

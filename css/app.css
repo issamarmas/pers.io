@@ -460,7 +460,7 @@ ul.s-nav a:hover .s {
     /* border-top: solid 2px #42a7e4; */
 }
 section#footer {
-    height: 250px;
+    height: auto;
     background: #151515;
     border-top: solid 2px #5f5f5f;
 }
@@ -473,9 +473,9 @@ section#footer {
   display: block;
 }
 #footer h3:hover {
-    border-color: #fff;
-    color: #fff;
-    user-select: none;
+      border-color: #9dab2e;
+      color: #9dab2e;
+      user-select: none;
 }
 i.fas.fa-angle-up.f {
       position: relative;
@@ -495,4 +495,56 @@ i.fas.fa-angle-up.f:hover {
 }
 .s {
     transition: all 0.1s ease-in-out !important;
+}
+ul.foot-nav li {
+    color: #7b7b7b;
+    display: block;
+    line-height: 17px;
+    padding: 0;
+    text-align: right;
+    width: 100%;
+}
+ul.foot-nav li a:hover{
+      color: #fff !important;
+      padding: 7px 3px !important;
+      transition: all 0.1s !important;
+}
+ul.foot-nav li a{
+  width: 100%;
+    display: block;
+    padding: 7px 0 !important;
+    margin: 0px;
+}
+ul.foot-nav li a:focus{
+  color: #9dab2e !important;
+}
+ul.foot-nav {
+    margin: 0;
+    padding: 0px 10px;
+    width: 100%;
+}
+.f-i {
+    font-weight: 900;
+    position: relative;
+    font-size: 18px;
+    float: left;
+    color: #151515;
+    transform: none;
+}
+#footer a:hover .f-i {
+    color: #9dab2e !important;
+}
+#footer .col-lg-6:hover h3 { color: white;border-color: white; }
+#footer .col-lg-3:hover h3 { color: #9dab2e; }
+.s-nav li:hover {
+    color: #3da5e4 !important;
+    transform: translateY(-5px);
+    transition: all 0.4s;
+}
+.col-lg-9.width-end {
+    margin: 0 auto;
+    padding: .6rem;
+}
+.end-footer {
+    background: #0e0e0e;
 }
