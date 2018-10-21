@@ -14,7 +14,7 @@ you have to save that's style for navbar
 .bg-light {
     background-color: #f7f7f7 !important;
     position: fixed !important;
-    box-shadow: -1px -6px 20px 0px #3da5e4;
+    box-shadow: 1px -3px 12px 0px #b1b1b1;
     margin: 0 auto;
     height: 65px;
     z-index: 99999;
@@ -25,6 +25,17 @@ they are in top...
 ---------------
 */
 
+.border {
+    border: 1px solid #e2e2e2 !important;
+    position: relative;
+    top: -57px;
+    width: 15px;
+    display: inline-block;
+}
+.border:hover {
+    transform: scaleX(3.5);
+    border-color: #3da5e4 !important;
+}
 
 
 p {
