@@ -2,7 +2,7 @@
     padding: 0.700rem 2.75rem;
 }
 .btn-outline-primary {
-    color: #3da5e4;
+    color: #000000;
     background-color: transparent;
     background-image: none;
 }
@@ -37,6 +37,9 @@ they are in top...
     border-color: #3da5e4 !important;
 }
 
+.col-lg.col-md.shadow-sm.p-3.mb-5.bg-white.rounded:hover img {
+    filter: brightness(1);
+}
 
 p {
     margin-top: 0;
@@ -44,23 +47,26 @@ p {
 }
 .btn-outline-primary:focus, .btn-outline-primary.focus {
        color: #fff;
-    background-color: #3da5e4;
-    border-color: #3da5e4;
+    background-color: #ff9a44;
+    border-color: #ff9a44 !important;
     box-shadow: none;
+}
+.btn-outline-primary{
+      border-color: #000000 !important;
 }
 
 .btn-outline-primary:hover {
     color: #fff;
-    background-color: #3da5e4;
-    border-color: #3da5e4;
+    background-color: #ff9a44;
+    border-color: #ff9a44 !important;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
     box-shadow: none;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle {
     color: #fff;
-    background-color: #3da5e4;
-    border-color: #3da5e4;
+    background-color: #ff9a44;
+    border-color: #ff9a44;
 }
 .btn:not(:disabled):not(.disabled) {
     margin: 2px 12px;
