@@ -204,6 +204,7 @@ li{
 li > a{
     text-decoration: none !important;
     color: #575d67!important;
+    font-size: 17px !important;
     padding: 6px 0 !important;
 }
     li > a:hover{
