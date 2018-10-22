@@ -37,11 +37,11 @@ header{
     height: 100%;
 }
 header .cover h2{
-    color: #000000;
-    font-weight: 200;
-    LINE-HEIGHT: 55PX;
-    margin-bottom: 1rem;
-    font-size: 2.7em;
+    color: #000000 ;
+    font-weight: 700 ;
+    LINE-HEIGHT: 55PX ;
+    margin-bottom: 1rem ;
+    font-size: 2.7em ;
     -webkit-font-smoothing: antialiased;
 }
 header p {
