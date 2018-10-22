@@ -52,8 +52,11 @@ header p {
 }
 .conter {
 
+  margin: 0 auto;
+  display: block;
+  align-items: center;
   position: relative;
-  top: 35%;
+  top: 27vh;
 
 }
 
@@ -229,7 +232,7 @@ li > a{
     margin-left: -17px;
     top: 50%;
     margin-top: 27vh;
-    box-shadow:inset 0 0 0 1px #000000;
+    box-shadow:inset 0 0 0 1px #ff9a44;
     border-radius: 25px;
     z-index: 1;
 
@@ -238,7 +241,7 @@ li > a{
     content: '';
     width: 5px;
     height: 8px;
-    background: #000000;
+    background: #ff9a44;
     margin-left: -2px;
     top: 8px;
     border-radius: 4px;
@@ -343,9 +346,7 @@ img.p-img {
 
 }
 .fa, .fas {
-
     font-weight: 900;
-
     transform: rotate(-20deg);
     float: right;
     font-size: 42px;
