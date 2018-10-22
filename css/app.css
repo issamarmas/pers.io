@@ -41,7 +41,7 @@ header .cover h2{
     font-weight: 200;
     LINE-HEIGHT: 55PX;
     margin-bottom: 1rem;
-    font-size: 2.5em;
+    font-size: 2.7em;
     -webkit-font-smoothing: antialiased;
 }
 header p {
@@ -546,7 +546,36 @@ ul.foot-nav {
 .col-lg-9.width-end {
     margin: 0 auto;
     padding: .6rem;
+    user-select: none;
 }
 .end-footer {
     background: #0e0e0e;
+}
+/* footer copyright */
+
+#footer p {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.e-i {
+    transform: none;
+    font-size: 19px;
+    padding: 0px 5px;
+    line-height: 24px;
+    position: relative;
+    top: 3px;
+        float: left;
+}
+.width-end:hover .e-i {
+    color: #dc3545;
+}
+span.footer-name:hover {
+    color: #ff9a44;
+}
+
+span.footer-name {
+    color: #3b3b3b;
+    float: left;
+        padding: 0 5px;
 }
