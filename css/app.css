@@ -184,7 +184,7 @@ margin: 0 auto;
 span, li{
     font-weight: 100;
     color:#3da5e4;
-    padding: 13 10px;
+    vertical-align: middle;
 }
 div#about-link {
     position: relative;
