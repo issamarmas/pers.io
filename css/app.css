@@ -46,7 +46,7 @@ header .cover h2{
 }
 header p {
     color: #000000;
-    font-weight: 200;
+    font-weight: 400;
     padding: 0px 25px;
     font-size: 18px !important;
     margin-bottom: 1rem !important;
@@ -93,7 +93,7 @@ margin: 0 auto;
     padding-bottom: 2rem;
 }
 #about > .title > h2{
-   font-weight: 200;
+   font-weight: 400;
    text-align: center;
    padding: 50px;
    user-select: none;
@@ -182,7 +182,7 @@ margin: 0 auto;
     font-size: 30px;
 }
 span, li{
-    font-weight: 100;
+    font-weight: 400;
     color:#3da5e4;
     vertical-align: middle;
 }
@@ -509,16 +509,17 @@ ul.foot-nav li {
     width: 100%;
 }
 ul.foot-nav li a:hover{
-      color: #fff !important;
+      color: #c3c3c3 !important;
       padding: 7px 3px !important;
       transition: all 0.1s !important;
 }
 ul.foot-nav li a{
-  width: 100%;
+    width: 100%;
     display: block;
     padding: 7px 0 !important;
     margin: 0px;
-    font-size: 16px !important
+    font-size: 16px !important;
+    font-weight: 400;
 }
 ul.foot-nav li a:focus{
   color: #9dab2e !important;
@@ -539,7 +540,7 @@ ul.foot-nav {
 #footer a:hover .f-i {
     color: #9dab2e !important;
 }
-#footer .col-lg-6:hover h3 { color: white;border-color: white; }
+#footer .col-lg-6:hover h3 { color: #9dab2e;border-color: #9dab2e; }
 #footer .col-lg-3:hover h3 { color: #9dab2e; }
 .s-nav li:hover {
     color: #3da5e4 !important;
@@ -574,7 +575,7 @@ ul.foot-nav {
     color: #dc3545;
 }
 span.footer-name:hover {
-    color: #ff9a44;
+    color: #9dab2e;
 }
 
 span.footer-name {
@@ -589,5 +590,31 @@ span.footer-name {
 
 ::-webkit-scrollbar {
     width: 9px;
+}
+/* -- */
+#footer p.about-me {
+    padding: 10px;
+    padding-top: 5px;
+    color: #575d67;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: right;
+}
+p.about-me a {
+    background: #3b3b3b;
+    padding: 0px 11px;
+    display: inline-block;
+    border-radius: 2px;
+    margin-right: 3px;
+    position: relative;
+    font-size: 15px;
+    color: #0d0d0d;
+    top: 2px;
+    font-weight: 300;
+}
+p.about-me a:hover {
+    text-decoration: none;
+    background-color: #9dab2e;
+    color: #ffffff;
 }
 /* finally the fucking site is done in the line namber 582*/
