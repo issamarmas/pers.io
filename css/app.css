@@ -23,33 +23,28 @@ header{
     display: block;
     height: 100vh;
     margin: 0 auto;
-    background-image:url(../images/hero.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: #2196f3 !important;
 }
 
 
 .cover{
     display: block;
     text-align: center;
-    background :#f7f7f78a !important;
     height: 100%;
 }
 header .cover h2{
-    color: #000000 ;
-    font-weight: 700 ;
-    LINE-HEIGHT: 55PX ;
-    margin-bottom: 1rem ;
-    font-size: 2.7em ;
-    -webkit-font-smoothing: antialiased;
+  color: #fff;
+  font-weight: 700;
+  LINE-HEIGHT: 55PX;
+  margin-bottom: 1rem;
+  font-size: 2.7em;
 }
 header p {
-    color: #000000;
-    font-weight: 400;
-    padding: 0px 25px;
-    font-size: 18px !important;
-    margin-bottom: 1rem !important;
+      color: #fff;
+      font-weight: 400;
+      padding: 0px 25px;
+      font-size: 18px !important;
+      margin-bottom: 21px !important;
 }
 .conter {
 
@@ -235,7 +230,7 @@ li > a{
     margin-left: -17px;
     top: 50%;
     margin-top: 27vh;
-    box-shadow:inset 0 0 0 1px #ff9a44;
+    box-shadow:inset 0 0 0 1px #fff;
     border-radius: 25px;
     z-index: 1;
 
@@ -244,7 +239,7 @@ li > a{
     content: '';
     width: 5px;
     height: 8px;
-    background: #ff9a44;
+    background: #fff;
     margin-left: -2px;
     top: 8px;
     border-radius: 4px;
@@ -445,7 +440,9 @@ padding: 1rem;
 
 }
 ul.s-nav a:hover .s {
-    color: #ff9a44 !important;
+    color: #FFC107 !important;
+    transform: scale(1.33) !important;
+    -webkit-transform: scale(1.33) !important;
 }
 .s-nav li {
     padding: 0px;
@@ -457,8 +454,8 @@ ul.s-nav a:hover .s {
 /* The new style after back */
 
 .profile > p:hover {
-  transform: translateY(-7px);
-      background-color: #ff9a44;
+      transform: translateY(-7px);
+      background-color: #ffc107 !important;
       cursor: pointer;
       box-shadow: 0px 1px 20px 0px #ff9a44;
     /* border-top: solid 2px #42a7e4; */
@@ -496,9 +493,11 @@ i.fas.fa-angle-up.f {
 i.fas.fa-angle-up.f:hover {
   color: #ffffff;
   transform: translateY(-5px);
+  background: #9dab2e;
+  box-shadow: 0px -2px #bbcc34;
 }
 .s {
-    transition: all 0.1s ease-in-out !important;
+    transition: all 0.14s ease-in-out !important;
 }
 ul.foot-nav li {
     color: #7b7b7b;
@@ -544,11 +543,7 @@ ul.foot-nav {
 }
 #footer .col-lg-6:hover h3 { color: #9dab2e;border-color: #9dab2e; }
 #footer .col-lg-3:hover h3 { color: #9dab2e; }
-.s-nav li:hover {
-    color: #3da5e4 !important;
-    transform: translateY(-5px);
-    transition: all 0.4s;
-}
+
 .col-lg-9.width-end {
     margin: 0 auto;
     padding: .6rem;
@@ -627,5 +622,11 @@ p.about-me a:hover {
 #footer ::-webkit-scrollbar-thumb {
     background: #1f1f1f;
     border-radius: 3px;
+}
+ul.s-nav {
+    background: #f7f7f7;
+    padding: 0 1rem;
+    border-radius: 3rem;
+    margin: 1rem;
 }
 /* finally the fucking site is done in the line namber 582*/
