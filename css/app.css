@@ -520,6 +520,7 @@ ul.foot-nav li a{
     margin: 0px;
     font-size: 16px !important;
     font-weight: 400;
+    line-height: 15px;
 }
 ul.foot-nav li a:focus{
   color: #9dab2e !important;
