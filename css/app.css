@@ -23,7 +23,7 @@ header{
     display: block;
     height: 100vh;
     margin: 0 auto;
-    background: #2196f3 !important;
+    background: var(--blue) !important;
 }
 
 
@@ -35,7 +35,10 @@ header{
 header .cover h2{
   color: #fff;
   font-weight: 700;
-  LINE-HEIGHT: 55PX;
+  background-color: #2196F3;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 10px 40px;
   margin-bottom: 1rem;
   font-size: 2.7em;
 }
@@ -173,12 +176,12 @@ margin: 0 auto;
 /* end spinner */
 .fa-connectdevelop:before {
     content: "\f20e";
-    color: #3da5e4 !important;
+    color: #1f96f3 !important;
     font-size: 30px;
 }
 span, li{
     font-weight: 400;
-    color:#3da5e4;
+    color:#1f96f3;
     vertical-align: middle;
 }
 div#about-link {
@@ -204,7 +207,7 @@ li > a{
     padding: 6px 0 !important;
 }
     li > a:hover{
-      color: #3da5e4 !important;
+      color: #1f96f3 !important;
     }
 @keyframes rotate{
  0% {transform: rotate(0deg) }
@@ -217,7 +220,7 @@ li > a{
     margin-right: 1rem;
 }
  li > a:focus , focus-within{
-       color: #3da5e4 !important;
+       color: #1f96f3 !important;
     }
 
 .icon-scroll,.icon-scroll:before{
@@ -277,7 +280,7 @@ margin: 0 2rem;
     text-align: justify;
 }
 .rows > .bg-white {
-    background-color: #3da5e4 !important;
+    background-color: #1f96f3 !important;
 }
 img.p-img {
     width: 100%;
@@ -317,7 +320,7 @@ img.p-img {
 .profile > img{
     width: 129px;
     border-radius: 100px 100px 0px 0px;
-    border: solid 2px #3da5e4;
+    border: solid 2px #1f96f3;
     padding: 2px;
     margin: 0 auto;
     display: block;
@@ -339,7 +342,7 @@ img.p-img {
     margin-top: -1rem;
     border-radius: 4px;
     z-index: 1;
-    background-color: #3da5e4;
+    background-color: #1f96f3;
     position: relative;
 
 }
@@ -380,12 +383,12 @@ i.fas.fa-heart.fas2 {
 }
 .contant-row p{
 text-align: right;
-color: #3da5e4;
+color: #1f96f3;
 padding: 1rem;
 }
 .contant-row h3{
   text-align: right;
-  color: #3da5e4;
+  color: #1f96f3;
   padding-bottom: 0 !important;
   font-size: 20px;
   padding: 1rem;
@@ -418,7 +421,7 @@ padding: 1rem;
 }
 .service{
   width: 100%;
-  background:#3da5e4;
+  background:#1f96f3;
 }
 .service > .title > h2{
    font-weight: 100;
@@ -432,7 +435,7 @@ padding: 1rem;
 /* style sosiel links --s-nav--*/
 .s {
     animation: none;
-    color: #3da5e4;
+    color: #1f96f3;
     margin: 9px;
     position: relative;
     padding: 0px !important;
@@ -584,7 +587,7 @@ span.footer-name {
 }
 /*scroll bar*/
 ::-webkit-scrollbar-thumb {
-    background: #45a8e5;
+    background: #1f96f3;
 }
 
 ::-webkit-scrollbar {
@@ -628,5 +631,11 @@ ul.s-nav {
     padding: 0 1rem;
     border-radius: 3rem;
     margin: 1rem;
+}
+@media (max-width:615px) {
+  header .cover h2{
+    border-radius: none;
+    background: none;
+  }
 }
 /* finally the fucking site is done in the line namber 582*/

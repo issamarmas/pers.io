@@ -34,7 +34,7 @@ they are in top...
 }
 .border:hover {
     transform: scaleX(3.5);
-    border-color: #3da5e4 !important;
+    border-color: #1f96f3 !important;
 }
 
 .col-lg.col-md.shadow-sm.p-3.mb-5.bg-white.rounded:hover img {
@@ -54,6 +54,7 @@ p {
 .btn-outline-primary{
       border-color: #fff !important;
       border: 2px solid;
+      border-radius: 30px;
 }
 
 .btn-outline-primary:hover {
