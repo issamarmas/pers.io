@@ -54,7 +54,7 @@ p {
 .btn-outline-primary{
       border-color: #fff !important;
       border: 2px solid;
-      border-radius: 30px;
+      border-radius: 0px;
 }
 
 .btn-outline-primary:hover {
@@ -106,6 +106,8 @@ h3, .h3 {
       background: #1f1f1f;
       line-height: 25px;
       border-bottom: solid 2px;
-      border-radius: 2px;
       padding: 6px;
+}
+.rounded {
+  border-radius: 0px !important;
 }
