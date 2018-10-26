@@ -509,7 +509,7 @@ ul.foot-nav li {
     width: 100%;
 }
 ul.foot-nav li a:hover{
-      color: #c3c3c3 !important;
+      color: #b7b7b7 !important;
       padding: 7px 3px !important;
       transition: all 0.1s !important;
 }
@@ -518,8 +518,9 @@ ul.foot-nav li a{
     display: block;
     padding: 7px 0 !important;
     margin: 0px;
+    color: #3b3b3b !important;
     font-size: 16px !important;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 15px;
 }
 ul.foot-nav li a:focus{
@@ -552,6 +553,7 @@ ul.foot-nav {
     margin: 0 auto;
     padding: .6rem;
     user-select: none;
+    font-weight: 500;
 }
 .end-footer {
     background: #0e0e0e;
@@ -582,6 +584,7 @@ span.footer-name:hover {
 span.footer-name {
     color: #3b3b3b;
     float: left;
+    font-weight: 500;
     padding: 0 5px;
 }
 /*scroll bar*/
@@ -594,12 +597,15 @@ span.footer-name {
 }
 /* -- */
 #footer p.about-me {
-    padding: 10px;
-    padding-top: 5px;
-    color: #575d67;
-    font-size: 16px;
-    font-weight: 400;
-    text-align: right;
+  padding: 10px;
+  padding-top: 3px;
+  color: #3b3b3b;
+  font-size: 16px;
+  height: 77px;
+  font-weight: 500;
+  text-align: right;
+  overscroll-behavior-y: contain;
+  overflow-y: scroll;
 }
 p.about-me a {
     background: #3b3b3b;
@@ -617,5 +623,9 @@ p.about-me a:hover {
     text-decoration: none;
     background-color: #9dab2e;
     color: #ffffff;
+}
+#footer ::-webkit-scrollbar-thumb {
+    background: #1f1f1f;
+    border-radius: 3px;
 }
 /* finally the fucking site is done in the line namber 582*/
