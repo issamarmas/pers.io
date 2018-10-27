@@ -111,9 +111,6 @@ h3, .h3 {
 .rounded {
   border-radius: 0px !important;
 }
-.shadow-sm {
-    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.075) !important;
-}
 .shadow-sm:hover {
     box-shadow: 1px 1.25rem 3rem rgba(0, 0, 0, 0.075) !important
 }
