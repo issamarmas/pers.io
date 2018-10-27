@@ -547,7 +547,7 @@ ul.foot-nav {
     line-height: 24px;
     position: relative;
     top: 3px;
-        float: left;
+    float: left;
 }
 .width-end:hover .e-i {
     color: #dc3545;
@@ -572,15 +572,15 @@ span.footer-name {
 }
 /* -- */
 #footer p.about-me {
-  padding: 10px;
-  padding-top: 3px;
-  font-size: 16px;
-  cursor: default;
-  height: 77px;
-  font-weight: 500;
-  text-align: right;
-  overscroll-behavior-y: contain;
-  overflow-y: scroll;
+    padding: 10px;
+    padding-top: 3px;
+    font-size: 16px;
+    cursor: default;
+    height: 77px;
+    font-weight: 500;
+    text-align: right;
+    overscroll-behavior-y: contain;
+    overflow-y: scroll;
 }
 p.about-me a {
     background: #3b3b3b;
@@ -610,19 +610,19 @@ ul.s-nav {
     margin: 1rem;
 }
 .row-width .row p{
-margin-top: 0;
-margin-bottom: 0 !important;
-padding: 1rem;
-font-size: 15px;
-background: #1f96f3;
-color: #fff;
-text-align: justify;
-cursor: pointer;
+    margin-top: 0;
+    margin-bottom: 0 !important;
+    padding: 1rem;
+    font-size: 15px;
+    background: #1f96f3;
+    color: #fff;
+    text-align: justify;
+    cursor: pointer;
 }
 .row-width{
-  width: 80%;
-  display: block;
-  margin: 0 auto;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
 }
 
 /* style for services section */
@@ -689,24 +689,22 @@ div#services-link {
     margin: 0px 0px;
 }
 li.li-1 {
-  padding: 5px 10px;
-  background: #eaeaea;
-  text-align: center;
-  color: #a7a7a7;
+    padding: 5px 10px;
+    background: #eaeaea;
+    text-align: center;
+    color: #a7a7a7;
 }
-
 li.li-2 {
-  background: #d6d6d64d;
-      padding: 5px 10px;
-      text-align: center;
-      color: #a7a7a7;
+    background: #ffffff;
+    padding: 5px 10px;
+    text-align: center;
+    color: #a7a7a7;
 }
 li.li-3 {
-
-background: #eaeaea;
-text-align: center;
-color: #a7a7a7;
-padding: 5px 10px;
+    background: #eaeaea;
+    text-align: center;
+    color: #a7a7a7;
+    padding: 5px 10px;
 }
 .tips li:hover {
     background: #FFC107;
