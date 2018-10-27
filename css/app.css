@@ -438,13 +438,14 @@ ul.s-nav a:hover .s {
 
 
 /* The new style after back */
-
+.rounded:hover p {
+    background: #03A9F4 !important;
+}
 .profile > p:hover {
       transform: translateY(-7px);
-      background-color: #ffc107 !important;
+      background-color: #FF9800 !important;
       cursor: pointer;
       box-shadow: 0px 1px 20px 0px #ff9a44;
-    /* border-top: solid 2px #42a7e4; */
 }
 section#footer {
     height: auto;
@@ -581,7 +582,7 @@ span.footer-name {
   padding: 10px;
   padding-top: 3px;
   font-size: 16px;
-  cursor: text;
+  cursor: default;
   height: 77px;
   font-weight: 500;
   text-align: right;
