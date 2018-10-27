@@ -103,8 +103,15 @@ margin: 0 auto;
    user-select: none;
    font-size:2.3em;
 }
+.l > h2 {
+  padding: 40px !important;
+}
 .title{
-    margin: 0 auto;
+    margin: 0px auto !important;
+    text-align: center;
+}
+#services .title{
+    margin: -10px auto !important;
     text-align: center;
 
 }
@@ -620,7 +627,7 @@ cursor: pointer;
 /* style for services section */
 div#services-link {
     position: relative;
-    top: -120px;
+    top: -115px;
 }
 #services{
     display: block;
@@ -642,19 +649,26 @@ div#services-link {
 }
 .col-contant:hover {
     transform: translateY(-7px);
+    border-color: #FFC107;
 }
 #services .title > h2 {
     padding: 0 0 50px 0;
+    margin: 0 !important;
 }
 #services h1 {
-    font-size: 2.2rem;
+    font-size: 1.3rem;
     background: #1f96f3;
     color: #fff;
+    margin-bottom: 1.55rem !important;
     font-weight: 600 !important;
     border-radius: 40px;
     padding-right: 15px !important;
     text-align: right;
     padding: 10px;
     border-right: solid 9px #1a83d4;
+}
+.col-contant:hover h1 {
+    border-color: #FF9800 !important;
+    background-color: #FFC107 !important;
 }
 /* finally the fucking site is done in the line namber 582*/
