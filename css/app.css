@@ -735,4 +735,17 @@ li.li-3 {
     border-color: #FFC107 ;
     color: #FFC107 ;
 }
+
+/* style of conact section*/
+
+h2.h {
+    padding-top: 0px !important;
+}
+.border.b-r {
+    top: -65px;
+}
+div#contact-link {
+    position: relative;
+    top: -115px;
+}
 /* finally the fucking site is done in the line namber 675*/
