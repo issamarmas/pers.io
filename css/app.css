@@ -116,13 +116,11 @@ margin: 0 auto;
 /* start spinner */
 .divspinner{
     display: none; /* block spinner */
-    background: #ff9a44;
+    background: #1f96f3 !important;
     width: 100%;
     position: fixed;
     height: 100%;
     z-index: 9999999;
-
-
 }
 .fab {
     vertical-align: middle;
@@ -744,5 +742,35 @@ h2.h {
 div#contact-link {
     position: relative;
     top: -115px;
+}
+.width-section{
+  display: block;
+  margin: 0 auto !important;
+  width: 80%;
+}
+  .ul-contact {
+      padding: 0px;
+      list-style: none;
+      text-align: right;
+      line-height: 20px;
+  }
+
+  .ul-contact li span {
+    color: #828282;
+    font-size: 16px;
+    font-weight: 100;
+}
+.ul-contact li {
+    padding: 10px 19px;
+    margin: 4px 0px;
+    background: #efefef;
+    display: inline-block;
+    font-weight: 100;
+    border-radius: 55px;
+    color: #828282;
+    font-size: 16px;
+}
+.c-col {
+    margin-bottom: 4rem;
 }
 /* finally the fucking site is done in the line namber 675*/
