@@ -13,7 +13,8 @@ html,dody,*{
     -webkit-font-smoothing: antialiased;
     transition: all 0.2s ease-out !important;
     -webkit-transition: all 0.2s ease-out !important;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
+    -webkit-scroll-behavior: smooth !important;
 }
 .selector-for-some-widget {box-sizing: content-box;}
 
