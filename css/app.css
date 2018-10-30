@@ -14,7 +14,7 @@ html,dody,*{
     transition: all 0.2s ease-out !important;
     -webkit-transition: all 0.2s ease-out !important;
     scroll-behavior: smooth !important;
-    -webkit-scroll-behavior: smooth !important;
+    -ms-scroll-behavior: smooth !important;
 }
 .selector-for-some-widget {box-sizing: content-box;}
 
@@ -773,5 +773,8 @@ div#contact-link {
 }
 .c-col {
     margin-bottom: 4rem;
+}
+.center {
+    margin: 0 auto;
 }
 /* finally the fucking site is done in the line namber 675*/
