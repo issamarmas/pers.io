@@ -18,11 +18,16 @@ html,dody,*{
 
 body{
   /*  overflow: hidden; */
-  font-family: 'Changa', sans-serif !important;
+  font-family: 'Noto Sans Arabic', changa !important;
    background-color: #f7f7f7 !important;
 }
 span.dash-left {
     color: #e2e2e2;
+}
+span.logo {
+    vertical-align: initial;
+    position: relative;
+    top: -1px;
 }
 header{
 
@@ -492,7 +497,7 @@ ul.foot-nav li a{
     margin: 0px;
     color: #3b3b3b !important;
     font-size: 16px !important;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 15px;
 }
 ul.foot-nav li a:focus{
@@ -571,7 +576,7 @@ span.footer-name {
     font-size: 16px;
     cursor: default;
     height: 77px;
-    font-weight: 500;
+    font-weight: 400;
     text-align: right;
     overscroll-behavior-y: contain;
     overflow-y: scroll;
@@ -757,14 +762,14 @@ div#contact-link {
   .ul-contact li span {
     color: #828282;
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 300;
 }
 .ul-contact li {
     padding: 8px 19px;
     margin: 4px 0px;
     background: #efefef;
     display: inline-block;
-    font-weight: 100;
+    font-weight: 300;
     border-radius: 55px;
     color: #828282;
     font-size: 16px;
