@@ -54,11 +54,11 @@ p {
 .btn-outline-primary{
       border-color: #fff !important;
       border: 2px solid;
-      border-radius: 0px;
+      border-radius: 45px;
 }
 
 .btn-outline-primary:hover {
-    color: #2096f3;
+    color: #455a64;
     background-color: #fff;
     border-color: #fff !important;
 }
