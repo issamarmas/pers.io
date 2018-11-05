@@ -788,9 +788,43 @@ div#gallory-link {
     top: -45px;
 }
 .contant-item {
-    background: #e2e2e2;
-    height: 12rem;
-    margin-bottom: 30px !important;
+      background: #eaeaea;
+      height: 13rem;
+      transition: all 0.2s ease-out !important;
+      border-radius: 2px;
+      margin-bottom: 30px !important;
 }
-
+.contant-item:hover {
+    background: #1f96f3;
+    cursor: pointer;
+    transform: scale(1.04);
+    -webkit-transform: scale(1.04);
+    box-shadow: 0px 0px 30px 0px #1f96f3 !important;
+    -webkit-box-shadow: 0px 0px 30px 0px #1f96f3 !important;
+    -ms-box-shadow: 0px 0px 30px 0px #1f96f3 !important;
+    -o-box-shadow: 0px 0px 30px 0px #1f96f3 !important;
+}
+.hover-item {
+    display: block;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+.contant-item:hover .hover-item {
+    display: block;
+    opacity: 1;
+}
+.hover-item a {
+    color: #fff;
+    height: 100%;
+    position: relative;
+    top: 45%;
+    background: #1d8ce2;
+    padding: 10px 24px;
+    border-radius: 50px;
+    font-size: 17px;
+}
+.hover-item a:hover {
+    text-decoration: none;
+}
 /* finally the fucking site is done in the line namber 675*/
