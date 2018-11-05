@@ -128,7 +128,8 @@ margin: 0 auto;
 .fab {
     vertical-align: middle;
     border-style: none;
-    animation: rotate 4s infinite;animation-timing-function: ease-in-out;
+    animation: rotate 4s infinite;
+    animation-timing-function: ease-in-out;
     padding: 0 1rem !important;
 
 }
@@ -643,7 +644,7 @@ div#services-link {
     background: #ffffff;
     padding: 3rem;
     border-top: solid 5px #1f96f3;
-    margin-bottom: 4rem;
+    margin-bottom: 1.5rem;
     color: #434b4e;
 }
 .col-contant:hover {
@@ -786,4 +787,10 @@ div#gallory-link {
     position: relative;
     top: -45px;
 }
+.contant-item {
+    background: #e2e2e2;
+    height: 12rem;
+    margin-bottom: 30px !important;
+}
+
 /* finally the fucking site is done in the line namber 675*/
