@@ -784,4 +784,9 @@ div#contact-link {
 .center {
     margin: 0 auto;
 }
+/* gallory section */
+div#gallory-link {
+    position: relative;
+    top: -45px;
+}
 /* finally the fucking site is done in the line namber 675*/
