@@ -282,7 +282,7 @@ li > a{
     cursor: pointer;
 }
 .row > .bg-white {
-    background-color: #1f96f3 !important;
+    background-color: #fff !important;
     background: none !important;
     padding: 0 1px !important;
     margin-bottom: 0px !important;
