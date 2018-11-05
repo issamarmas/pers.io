@@ -246,8 +246,8 @@ li > a{
       height: 41px;
       margin-left: -12px;
       top: 50%;
+      border: solid 2px #fff !important;
       margin-top: 27vh;
-      box-shadow: inset 0 0 0 1px #fff;
       border-radius: 25px;
       z-index: 9;
 
