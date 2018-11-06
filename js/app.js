@@ -7,7 +7,6 @@ $(function(){
   $("html,body").stop().animate({scrollTop:a-30},750)})});
 
       // Scrolling Effect
-
       $(window).on("scroll", function() {
             if($(window).scrollTop()) {
                   $('.bg-light').removeClass('nnn');
@@ -17,7 +16,6 @@ $(function(){
                   $('i').removeClass('n');
                   $('.logo').removeClass('n');
             }
-
             else {
                   $('.bg-light').addClass('nnn');
                   $('.bg-light >').addClass('n');
