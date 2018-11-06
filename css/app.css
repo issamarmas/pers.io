@@ -565,11 +565,11 @@ span.footer-name {
 }
 /*scroll bar*/
 ::-webkit-scrollbar-thumb {
-    background: #1f96f3;
+    background: #546E7A !important;
 }
 
 ::-webkit-scrollbar {
-    width: 9px;
+    width: 9px !important;
 }
 /* -- */
 #footer p.about-me {
