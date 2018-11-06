@@ -841,4 +841,18 @@ div#gallory-link {
 .hover-item a:hover {
     text-decoration: none;
 }
+/* responsive nav bar */
+.n {
+    color: #fff !important;
+}
+.nnn {
+    background: none !important;
+    box-shadow: none !important;
+}
+.nn {
+    background: #4d636d !important;
+}
+i.fab.fa-connectdevelop.n:before {
+    color: #fff !important;
+}
 /* finally the fucking site is done in the line namber 675*/

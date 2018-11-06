@@ -90,7 +90,7 @@ p {
     align-items: center;
     -ms-flex-pack: justify;
     justify-content: center!important;
-    padding: 1rem 1rem;
+    padding: 0rem 1rem;
 }
 .p-3 {
     padding-left: 0 !important;
