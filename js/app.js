@@ -6,9 +6,6 @@ $(function(){
   var a=$($(this).attr("href")).offset().top;
   $("html,body").stop().animate({scrollTop:a-30},750)})});
 
-
-
-
       // Scrolling Effect
 
       $(window).on("scroll", function() {
