@@ -565,7 +565,7 @@ span.footer-name {
 }
 /*scroll bar*/
 ::-webkit-scrollbar-thumb {
-    background: #546E7A !important;
+    background: #546E7A ;
 }
 
 ::-webkit-scrollbar {
