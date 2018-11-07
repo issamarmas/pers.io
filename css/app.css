@@ -873,4 +873,9 @@ div#gallory-link {
 i.fab.fa-connectdevelop.n:before {
     color: #fff !important;
 }
+.profile:hover .fa-heart {
+    color: #FF9800 !important;
+    text-shadow: 0px 0px 2px #FF5722 !important;
+    -webkit-text-shadow: 0px 0px 2px #FF5722 !important;
+}
 /* finally the fucking site is done in the line namber 675*/
