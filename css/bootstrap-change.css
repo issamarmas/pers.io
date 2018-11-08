@@ -64,6 +64,8 @@ p {
     color: #455a64;
     background-color: #fff;
     border-color: #fff !important;
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.26);
+    transform: translateY(-4px);
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
     box-shadow: none;
