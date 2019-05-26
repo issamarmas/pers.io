@@ -14,10 +14,10 @@ you have to save that's style for navbar
 .bg-light {
     background-color: #ffffff !important;
     position: fixed !important;
-    box-shadow: 0px 2px 2px 0px #8080801f !important;
-    -webkit-box-shadow: 0px 2px 2px 0px #8080801f !important;
-    -ms-box-shadow: 0px 2px 2px 0px #8080801f !important;
-    -o-box-shadow: 0px 2px 2px 0px #8080801f !important;
+    box-shadow: 0 2px 8px 2px #8080801f !important;
+    -webkit-box-shadow: 0 2px 8px 2px #8080801f !important;
+    -ms-box-shadow: 0 2px 8px 2px #8080801f !important;
+    -o-box-shadow: 0 2px 8px 2px #8080801f !important;
     margin: 0 auto;
     height: 66px;
     z-index: 99999;
