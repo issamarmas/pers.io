@@ -26,7 +26,13 @@ $(function(){
                   $('.logo').addClass('n');
                   $('.navbar').removeClass('animated slideInDown')
             }
-      })
+      });
 
+      $( ".menu-icon" ).click(function() {
+            $('.mobile-menu-contant').show();
+          });
+      $(".mobile-menu-contant a").click(function(){
+                  $('.mobile-menu-contant').hide();
+      });
 
       
